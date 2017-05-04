@@ -24,6 +24,10 @@
         <activity
             android:name="com.example.yuriytilman.servisec.MainActivityDelete"
             android:label="@string/title_activity_main_delete"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.yuriytilman.servisec.MainActivitytodel"
+            android:label="@string/title_activity_main_activitytodel"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
