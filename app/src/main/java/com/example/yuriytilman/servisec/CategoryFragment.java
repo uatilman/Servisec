@@ -19,7 +19,7 @@ import android.widget.ListView;
 public class CategoryFragment extends ListFragment {
 
     private Services.Services_TYPE type;
-    private ServiceListener listner;
+    private ServiceListener listener;
 
     public interface ServiceListener {
         void onItemClicked(int id);
@@ -52,14 +52,14 @@ public class CategoryFragment extends ListFragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        listner = (ServiceListener) activity;
+        listener = (ServiceListener) activity;
     }
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
-        if (listner != null) {
-            listner.onItemClicked(position);
+        if (listener != null) {
+            listener.onItemClicked(position);
         }
     }
     public String[] getStringArray(Services services[]) {
