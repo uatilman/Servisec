@@ -12,10 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class CategoryFragment extends ListFragment {
 
     private Services.Services_TYPE type;
