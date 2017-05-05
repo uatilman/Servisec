@@ -1,6 +1,7 @@
 package com.example.yuriytilman.servisec;
 
 
+import android.app.Activity;
 import android.app.ListFragment;
 import android.content.Context;
 import android.content.Intent;
@@ -42,10 +43,16 @@ public class CategoryFragment extends ListFragment {
 
     }
 
-    @Override
+/*    @Override // работает с 23 апи (или22?)
     public void onAttach(Context context) {
         super.onAttach(context);
         listner = (ServiceListener) context;
+    }*/
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        listner = (ServiceListener) activity;
     }
 
     @Override
