@@ -37,11 +37,8 @@ public class CategoryActivity extends AppCompatActivity implements CategoryFragm
             Intent newIntent = new Intent(getApplicationContext(), DescriptionActivity.class);
             newIntent.putExtra(DescriptionActivity.EXTRA_NAIL_NUM, id);
             newIntent.putExtra(Services.TYPE, type);
-            newIntent.putExtra(DescriptionActivity.EXTRA_SERVICES, (Serializable) services);
             startActivity(newIntent);
         }
-
-
     }
 }
 
