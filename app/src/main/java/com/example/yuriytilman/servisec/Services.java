@@ -8,16 +8,11 @@ public class Services {
     private String name;
     private String description;
     private int imageResourceId;
-    public final static String TYPE = "NAIL";
-
-    /*   private static final String  NAIL = "nail";*/
+    public final static String TYPE = "type";
     public enum Services_TYPE {
         HAIR, NAIL
     }
 
-
-
-  //  private Services_TYPE TYPE;
 
     // Для каждой услуги ногтевого сервиса хранится название, описание и ресурс изображения
     Services(String name, String description, int imageResourceId) {
