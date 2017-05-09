@@ -25,16 +25,15 @@ public class CategoryFragment extends ListFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        //ListView listView = getListView();
         Intent intent = getActivity().getIntent();
-        type= (Services.Services_TYPE)intent.getExtras().get(Services.TYPE);//!!!!
-        MyAdapter listAdapter = new MyAdapter(
+        type= (Services.Services_TYPE)intent.getExtras().get(Services.TYPE);
+        MyAdapter myAdapter = new MyAdapter(
                 getActivity(),
                 getStringArray(Services.services(getResources(),  type)),
                 getIntegerArray(Services.services(getResources(), type)));
         //ArrayAdapter<Services> listAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, Services.nails(getResources()));
         //listView.
-                setListAdapter(listAdapter);
+                setListAdapter(myAdapter);
         return super.onCreateView(inflater, container, savedInstanceState);
 
     }

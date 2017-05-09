@@ -1,7 +1,6 @@
 package com.example.yuriytilman.servisec;
 
 import android.app.Activity;
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +42,7 @@ public class MyAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = mActivity.getLayoutInflater();
-        View myView = inflater.inflate(R.layout.my_list_iteam, null, true);
+        View myView = inflater.inflate(R.layout.my_list_item, null, true);
 
         TextView textView = (TextView) myView.findViewById(R.id.list_description);
         ImageView imageView = (ImageView) myView.findViewById(R.id.logo);
