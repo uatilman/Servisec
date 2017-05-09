@@ -43,26 +43,6 @@ public class CategoryActivity extends AppCompatActivity implements CategoryFragm
 
 
     }
-    // /*   @Override
-//    public void onListItemClick(ListView listView, View itemView, int position, long id) {
-//        Log.d("CategoryActivity", "listView " + listView);
-//        Log.d("CategoryActivity", "itemView " + itemView);
-//        Log.d("CategoryActivity", "position " + position);
-//        Log.d("CategoryActivity", "id " + id);
-//        Intent intent = new Intent(CategoryActivity.this, DescriptionActivity.class);
-//        intent.putExtra(DescriptionActivity.EXTRA_NAIL_NUM, (int) position);
-//        intent.putExtra(Services.TYPE, type);
-//        startActivity(intent);
-//    }*/
-//        /*ListView listNails = getListView();
-//        Intent intent = getIntent();
-//        type= (Services.Services_TYPE)intent.getExtras().get(Services.TYPE);//!!!!
-//        MyAdapter listAdapter = new MyAdapter(
-//                this,
-//                getStringArray(Services.services(getResources(),  type)),
-//                getIntegerArray(Services.services(getResources(), type)));
-//        //ArrayAdapter<Services> listAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, Services.nails(getResources()));
-//        listNails.setAdapter(listAdapter);*/
 }
 
 
