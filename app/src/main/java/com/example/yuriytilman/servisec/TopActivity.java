@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.LinearLayout;import com.example.lesson6.R;
+import android.widget.LinearLayout;
+
+import com.example.lesson6.R;
 
 public class TopActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -37,22 +39,16 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
+        Intent intent;
         if (view.equals(nailLay)) {
-            Intent intent = new Intent(this, CategoryActivity.class);
+            intent = new Intent(this, CategoryActivity.class);
             intent.putExtra(Services.TYPE, Services.Services_TYPE.NAIL);
-            startActivity(intent);
         } else if (view.equals(hearLay)) {
-            Intent intent = new Intent(this,  CategoryActivity.class);
+            intent = new Intent(this, CategoryActivity.class);
             intent.putExtra(Services.TYPE, Services.Services_TYPE.HAIR);
-            startActivity(intent);
-        } else if (view.equals(addressLay)) {
-
-
-
-
-            Intent intent = new Intent(this, AddressActivity.class);
-            startActivity(intent);
+        } else {
+            intent = new Intent(this, AddressActivity.class);
         }
+        startActivity(intent);
     }
-
 }
