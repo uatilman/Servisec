@@ -7,10 +7,8 @@
     <dimen name="top_activity_horizontal_drawable_dimen">120dp</dimen>
     <dimen name="top_activity_vertical_drawable_dimen">150dp</dimen>
 
-
-    <dimen name="top_activity_horizontal_drawable_small_dimen">70dp</dimen>
-    <dimen name="top_activity_vertical_drawable_small_dimen">100dp</dimen>
-
+    <dimen name="top_activity_horizontal_drawable_small_dimen">58dp</dimen>
+    <dimen name="top_activity_vertical_drawable_small_dimen">83dp</dimen>
 
 
     <dimen name="fab_margin">16dp</dimen>

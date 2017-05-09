@@ -11,8 +11,8 @@
 
         <ImageView
             android:id="@+id/nail_photo"
-            android:layout_width="@dimen/nails_activity_vertical_drawable_dimen"
-            android:layout_height="@dimen/nails_activity_horizontal_drawable_dimen"
+            android:layout_width="@dimen/top_activity_vertical_drawable_dimen"
+            android:layout_height="@dimen/top_activity_horizontal_drawable_dimen"
             android:layout_gravity="center" />
 
         <TextView
