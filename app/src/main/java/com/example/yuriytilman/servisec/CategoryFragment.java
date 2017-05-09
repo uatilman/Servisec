@@ -38,7 +38,7 @@ public class CategoryFragment extends ListFragment {
 
     }
 
-/*    @Override // работает с 23 апи (или22?)
+/*    @Override // работает с 23 апи
     public void onAttach(Context context) {
         super.onAttach(context);
         listner = (ServiceListener) context;

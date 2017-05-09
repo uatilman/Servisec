@@ -4,6 +4,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <dimen name="top_activity_text_margin">30dp</dimen>
+    <dimen name="top_activity_image_margin">10dp</dimen>
+
     <dimen name="top_activity_horizontal_drawable_dimen">120dp</dimen>
     <dimen name="top_activity_vertical_drawable_dimen">150dp</dimen>
 

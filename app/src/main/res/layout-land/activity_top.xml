@@ -3,11 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+
     android:orientation="horizontal">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+
         android:background="@color/colorBackground"
         android:orientation="vertical">
 
@@ -29,7 +32,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+
+        android:layout_marginLeft="100dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -41,14 +45,14 @@
             <ImageView
                 android:layout_width="@dimen/top_activity_horizontal_drawable_small_dimen"
                 android:layout_height="@dimen/top_activity_vertical_drawable_small_dimen"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/top_activity_image_margin"
                 android:contentDescription="@string/s_hair"
                 android:src="@drawable/hair" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"
+                android:layout_margin="@dimen/top_activity_text_margin"
                 android:gravity="center"
                 android:text="@string/s_hair"
                 android:textAppearance="?android:attr/textAppearanceListItem"
@@ -65,14 +69,14 @@
             <ImageView
                 android:layout_width="@dimen/top_activity_horizontal_drawable_small_dimen"
                 android:layout_height="@dimen/top_activity_vertical_drawable_small_dimen"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/top_activity_image_margin"
                 android:contentDescription="@string/s_nails"
                 android:src="@drawable/nail" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"
+                android:layout_margin="@dimen/top_activity_text_margin"
                 android:gravity="center"
                 android:text="@string/s_nails"
                 android:textAppearance="?android:attr/textAppearanceListItem"
@@ -88,14 +92,14 @@
             <ImageView
                 android:layout_width="@dimen/top_activity_horizontal_drawable_small_dimen"
                 android:layout_height="@dimen/top_activity_vertical_drawable_small_dimen"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/top_activity_image_margin"
                 android:contentDescription="@string/address"
                 android:src="@drawable/address" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"
+                android:layout_margin="@dimen/top_activity_text_margin"
                 android:gravity="center"
                 android:text="@string/address"
                 android:textAppearance="?android:attr/textAppearanceListItem"
