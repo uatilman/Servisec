@@ -83,8 +83,7 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
             }).start();
 
 
-            //**intent = new Intent(this, AddressActivity.class);
-            //**ткст тест intent = new Intent(this, AddressActivity.class);
+            //intent = new Intent(this, AddressActivity.class);
         }
         //startActivity(intent);
     }
