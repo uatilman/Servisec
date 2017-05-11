@@ -69,7 +69,6 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
                         in.read();
                         System.out.println((byte)in.read());
                        while ((c = in.read()) != -1) {
-
                             System.out.print((char) c);
                         }
 
