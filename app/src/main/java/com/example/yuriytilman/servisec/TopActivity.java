@@ -57,7 +57,6 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
             intent.putExtra(Services.TYPE, Services.Services_TYPE.HAIR);
             startActivity(intent);
         } else {
-
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -71,23 +70,14 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
                         while ((c = in.read()) != -1) {
                             System.out.print((char) c);
                         }
-//комментарий для тестирования git;
-
                         urlConnection.disconnect();
                     } catch (IOException e) {
                     } finally {
                         urlConnection.disconnect();
                     }
-
                 }
             }).start();
-
-
-//приввет;
-            //как дела;
             //intent = new Intent(this, AddressActivity.class);
-            //как твои дела;
-
         }
         //startActivity(intent);
     }
