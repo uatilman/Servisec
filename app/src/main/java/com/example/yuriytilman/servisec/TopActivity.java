@@ -67,10 +67,11 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
                         BufferedInputStream in = new BufferedInputStream(urlConnection.getInputStream());
                         int c;
                         in.read();
-                        System.out.println((byte)in.read());
-                       while ((c = in.read()) != -1) {
+                        System.out.println((byte) in.read());
+                        while ((c = in.read()) != -1) {
                             System.out.print((char) c);
                         }
+//***комментарий для тестирования git
 
                         urlConnection.disconnect();
                     } catch (IOException e) {
@@ -81,7 +82,8 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
                 }
             }).start();
 
-
+//приввет
+            //как дела
             //intent = new Intent(this, AddressActivity.class);
         }
         //startActivity(intent);
