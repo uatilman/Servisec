@@ -71,7 +71,7 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
                        while ((c = in.read()) != -1) {
                             System.out.print((char) c);
                         }
-//комментарий для тестирования git
+//***комментарий для тестирования git
 
                         urlConnection.disconnect();
                     } catch (IOException e) {
